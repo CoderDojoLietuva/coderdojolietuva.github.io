@@ -3,6 +3,31 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+.coderdojo .navbar-default {
+    background-color: #faca33;
+}
+
+.coderdojo .navbar-default .navbar-nav>.active>a, 
+.coderdojo .navbar-default .navbar-nav>.active>a:hover, 
+.coderdojo .navbar-default .navbar-nav>.active>a:focus {
+    color: #ffffff;
+    background-color: #949259;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #2566a8;
+    border-color: #2566a8;
+}
+
+.coderdojo a:hover, {
+    outline: 0;
+    color: #2566a8;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .btn-outline:hover  {
+    color: #2566a8;
+}
 
 .calendar {
     text-align: center;
@@ -80,7 +105,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #158EC7;
 }
 
 hr.star-primary {
@@ -99,7 +124,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #158EC7;
 }
 
 header .container {
@@ -202,7 +227,7 @@ section.success p {
 
 section.success{
     color: #fff;
-    background: #18bc9c;
+    background: #158EC7;
 }
 
 section.success a.btn-primary,
@@ -259,7 +284,7 @@ section.success a.active {
     margin: 0 auto;
     width: 250px;
     height: 250px;
-    background-color: #2c3e50;
+    background-color: #2566a8;
     text-align: center;
 }
 
@@ -269,7 +294,7 @@ section.success a.active {
     height: 100%;
     left: 0;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: #2e7ac7;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -323,7 +348,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #2566a8;
     background: #fff;
 }
 
