@@ -20,9 +20,47 @@
     border-color: #2566a8;
 }
 
+.btn-success {
+    color: #ffffff;
+    background-color: #2566a8;
+    border-color: #2566a8;
+}
+
 .coderdojo a:hover, {
     outline: 0;
     color: #2566a8;
+}
+
+
+#ambassadors img.ambassador {
+    height: 220px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#ambassadors .ambassador-picture {
+    text-align: right;
+}
+
+#ambassadors  .ambassador-right .ambassador-picture {
+    text-align: left;
+}
+
+#ambassadors .ambassador-text {
+    
+}
+
+#ambassadors .ambassador-right .ambassador-text {
+    text-align: right;
+}
+
+#ambassadors .ambassador-right .ambassador-text blockquote {
+    text-align: left;
+}
+
+#ambassadors .row {
+    margin-top: 3em;
+    margin-bottom: 3em;    
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .btn-outline:hover  {
@@ -64,7 +102,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #158EC7;
 }
 
 h1,
