@@ -14,6 +14,12 @@
     background-color: #949259;
 }
 
+.coderdojo .navbar-default .navbar-nav>li>a:hover,
+.coderdojo .navbar-default .navbar-nav>li>a:focus {
+    color: #2566a8;
+    background-color: transparent;
+}
+
 .btn-primary {
     color: #ffffff;
     background-color: #2566a8;
@@ -31,6 +37,33 @@
     color: #2566a8;
 }
 
+.more-container .icon-outline {
+    font-size: 1.5em;
+}
+
+.more-container .link-list li {
+    line-height: 2.5em;
+    vertical-align: middle;
+    list-style: none;
+}
+
+.more-container .link-list li .fa {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.more-container .link-list li a {
+    font-size: 1.3em;
+}
+
+.more-container .link-list li a:link, 
+.more-container .link-list li a:hover,
+.more-container .link-list li a:active,
+.more-container .link-list li a:visited
+ {
+    color: #ffffff;
+}
 
 #ambassadors img.ambassador {
     height: 220px;
