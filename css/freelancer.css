@@ -37,6 +37,14 @@
     color: #2566a8;
 }
 
+.calendar iframe {
+    max-width: 100%;
+}
+
+#registration a {
+    margin-top: 10px;
+}
+
 .more-container .icon-outline {
     font-size: 1.5em;
 }
