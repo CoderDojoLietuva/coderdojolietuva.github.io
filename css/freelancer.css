@@ -37,6 +37,19 @@
     color: #2566a8;
 }
 
+.dojo-button {
+    background-color: #AD8401;
+    border-radius: 5px;
+}
+
+.coderdojo li.dojo-button a:link, 
+.coderdojo li.dojo-button a:active, 
+.coderdojo li.dojo-button a:visited, 
+.coderdojo li.dojo-button a:hover {
+    color: #ffffff !important;
+}
+
+
 .calendar iframe {
     max-width: 100%;
 }
@@ -102,6 +115,10 @@
 #ambassadors .row {
     margin-top: 3em;
     margin-bottom: 3em;    
+}
+
+.first-club-section {
+    margin-top: 5em;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .btn-outline:hover  {
