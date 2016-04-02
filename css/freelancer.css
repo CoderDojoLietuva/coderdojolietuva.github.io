@@ -86,7 +86,7 @@
     color: #ffffff;
 }
 
-#ambassadors img.ambassador {
+#ambassadors img.ambassador, #mentors img.mentor {
     height: 220px;
     margin-left: 1em;
     margin-right: 1em;
@@ -100,8 +100,23 @@
     text-align: left;
 }
 
-#ambassadors .ambassador-text {
-    
+img.mentor {
+    margin-top: 30px;
+}
+
+#mentors {
+    padding-top: 0;
+    padding-bottom: 100px;
+}
+
+section.drop-padding {
+    padding-top: 0;
+    padding-bottom: 100px;
+}
+
+.mentor-row {
+    margin-top: 2em;
+    margin-bottom: 4em;
 }
 
 #ambassadors .ambassador-right .ambassador-text {
