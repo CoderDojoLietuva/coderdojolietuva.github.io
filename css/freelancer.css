@@ -32,7 +32,7 @@
     border-color: #2566a8;
 }
 
-.coderdojo a:hover, {
+.coderdojo a:hover {
     outline: 0;
     color: #2566a8;
 }
@@ -134,6 +134,10 @@ section.drop-padding {
 
 .first-club-section {
     margin-top: 5em;
+}
+
+#clubs .club-city {
+    margin-top: 2em;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .btn-outline:hover  {
@@ -501,7 +505,7 @@ section.success a.active {
     transition: top .3s ease,opacity .3s ease;
 }
 
-.floating-label-form-group::not(:first-child) {
+.floating-label-form-group:not(:first-child) {
     padding-left: 14px;
     border-left: 1px solid #eee;
 }
