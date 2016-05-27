@@ -268,6 +268,18 @@
                         </div>
                     </a>
                 </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="http://codecombat.com/" class="portfolio-link" target="_blank">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-external-link fa-3x"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <img src="./files/codecombat.png" />
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -604,10 +616,10 @@ public class CoderDojo {
   mokslas.set("J. Snadeckio gimnazija");
   mokslas.set("Vilniaus Kolegija - Sisteminis programavimas");
 
-  Lang[] programavimoKalbos = 
+  Lang[] programavimoKalbos =
     new Lang["Pascal", "Object Pascal", "Delphi", "C++", "C#", "JAVA",
              "JavaScript", "Python", "PHP", "Common Lisp (The Basics)"];
- 
+
   Client klientas = new Client();
   klientas.set("BilietaiLT");
   klientas.set("Bankai"); // secure/slapta informacija
@@ -618,14 +630,14 @@ public class CoderDojo {
     rezultatas += "\n" + mokslas.getList().AsString();
 
     for (int i = 0; i < programavimoKalbos.length; i++) {
-      if (i == 0) 
+      if (i == 0)
         rezultatas += "\n";
       else
         rezultatas += programavimoKalbos[i];
     }
-    
+
     rezultatas += "\n" + klientas.getList().AsString;
-    
+
     System.out.println(rezultatas);
     System.out.println("\n\n Placiau ziur. Linkedin: https://lt.linkedin.com/in/pavel-vrublevskij-04293763");
   }
@@ -927,7 +939,7 @@ public class CoderDojo {
             </div>
         </div>
     </div>
-    
+
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -962,7 +974,7 @@ public class CoderDojo {
             </div>
         </div>
     </div>
-    
+
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -1056,7 +1068,7 @@ public class CoderDojo {
                                     <i class="fa fa-download fa-2x pull-left"></i> Atsisiųsti failus</a>
                             </p>
                             <p>
-                                <a class="btn btn-success" target="_blank" href="./files/CoderDojo pirmoji svetaine.pdf">
+                                <a class="btn btn-success" target="_blank" href="./files/instrukcija/index.html">
                                     <i class="fa fa-book fa-2x pull-left"></i> Instrukcijos</a>
                             </p>
                             <button type="button" class="btn btn-default close-button-files" data-dismiss="modal"><i class="fa fa-times"></i> Uždaryti</button>
